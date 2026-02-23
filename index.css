@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./pexels-bananamade-2762930.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+div{
+    background-color: hsl(0, 0%, 0%, 0.9);
+    height: auto;
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
