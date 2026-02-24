@@ -1,42 +1,55 @@
-html{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-image: url('./pexels-bananamade-2762930.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    width: 100%;  
+    height: auto;
 }
 
-h1{
+h1{margin-top: 50px;
+    margin-bottom: -30px;
     text-align: center;
-    color: aliceblue;
-    font-size: 70px;
+    color:hsl(119, 100%, 92%);
+    font-size: 90px;
 }
 
-a{
-    display: block;
-    text-align: center;
+.container a{
+    display: inline;
     font-size: 50px;
     text-decoration: none;
     color: antiquewhite;
     font-family: Helvetica, sans-serif, Arial;
+    transition: 0.5s;
 }
 
-div{
-    background-color: hsl(0, 0%, 0%, 0.9);
+.container{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 0%, 0.5); 
+    margin: 150px auto 30px;
+    width: 99%;
     height: auto;
-    width: 100%;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    box-shadow: 2px 2px 10px 1px gray;
+    border-radius: 5px;
+
+}
+
+
+.container a{
+flex: auto;
 }
 
 a:hover{
-    text-decoration: underline;
+    display: inline-block;
     color: blue;
     cursor: pointer;
+    transform: scale(1.1);
 }
